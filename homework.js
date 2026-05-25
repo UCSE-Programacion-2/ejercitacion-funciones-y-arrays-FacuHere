@@ -190,6 +190,7 @@ function tienePropiedad(objeto, propiedad){
   // De lo contrario, devuelve "false"
   // Tu código:
   return Object.prototype.hasOwnProperty.call(objeto, propiedad);
+
 }
 
 function verificarPassword(usuario, password){
